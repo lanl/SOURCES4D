@@ -1,0 +1,29 @@
+#!/bin/tcsh
+# copy this file to a working directory and run it there
+
+# location of sources4d directory
+set S4DIR = "~/sources4d/"
+
+# remove preexisting test directories
+foreach f ( 1 2 3 4 5 6 7 8 )
+  if ( -e test${f} ) then
+    rm -rf test${f}
+  endif
+end
+# copy in new test directories and diff utility
+cp -R ${S4DIR}/samples/test? .
+cp -R ${S4DIR}/samples/rundiff .
+
+foreach f ( 1 2 3 4 5 6 7 8 )
+  cd test${f}
+  echo "*** test${f} ***"
+  rm -rf tape6 tape7 tape8 tape9 pdata sdata outp outp2
+  ln -sf ${S4DIR}/data/tape2.txt tape2
+  ln -sf ${S4DIR}/data/tape3.txt tape3
+  ln -sf ${S4DIR}/data/tape4.txt tape4
+  ln -sf ${S4DIR}/data/tape5.txt tape5
+  ${S4DIR}/bin/sources4d
+  echo ""
+  cd ..
+end
+

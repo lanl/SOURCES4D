@@ -1,0 +1,82 @@
+#!/bin/tcsh
+# compare test problem outputs with templates.
+
+# location of original samples directory for comparison
+set COMPDIR = "~/sources4d/samples/"
+
+if ( -e diffs ) then
+  rm -rf diffs
+endif
+
+set dir="test1"
+echo "*** ${dir} *** " >  diffs
+cd ${dir}
+foreach f ( outp outp2 pdata tape6 tape7 )
+  echo "diff ${f} ${COMPDIR}/${dir}/${f}" >> ../diffs
+  diff ${f} ${COMPDIR}/${dir}/${f} >> ../diffs
+end
+cd ..
+
+set dir="test2"
+echo "*** ${dir} *** " >> diffs
+cd ${dir}
+foreach f ( outp pdata tape6 )
+  echo "diff ${f} ${COMPDIR}/${dir}/${f}" >> ../diffs
+  diff ${f} ${COMPDIR}/${dir}/${f} >> ../diffs
+end
+cd ..
+
+set dir="test3"
+echo "*** ${dir} *** " >> diffs
+cd ${dir}
+foreach f ( outp outp2 pdata tape6 tape7 tape8 tape9 )
+  echo "diff ${f} ${COMPDIR}/${dir}/${f}" >> ../diffs
+  diff ${f} ${COMPDIR}/${dir}/${f} >> ../diffs
+end
+cd ..
+
+set dir="test4"
+echo "*** ${dir} *** " >> diffs
+cd ${dir}
+foreach f ( outp outp2 tape6 tape7 tape8 )
+  echo "diff ${f} ${COMPDIR}/${dir}/${f}" >> ../diffs
+  diff ${f} ${COMPDIR}/${dir}/${f} >> ../diffs
+end
+cd ..
+
+set dir="test5"
+echo "*** ${dir} *** " >> diffs
+cd ${dir}
+foreach f ( outp outp2 tape6 tape7 tape8 )
+  echo "diff ${f} ${COMPDIR}/${dir}/${f}" >> ../diffs
+  diff ${f} ${COMPDIR}/${dir}/${f} >> ../diffs
+end
+cd ..
+
+set dir="test6"
+echo "*** ${dir} *** " >> diffs
+cd ${dir}
+foreach f ( outp outp2 pdata tape6 tape7 tape8 tape9 )
+  echo "diff ${f} ${COMPDIR}/${dir}/${f}" >> ../diffs
+  diff ${f} ${COMPDIR}/${dir}/${f} >> ../diffs
+end
+cd ..
+
+set dir="test7"
+echo "*** ${dir} *** " >> diffs
+cd ${dir}
+foreach f ( outp outp2 pdata tape6 tape7 tape8 tape9 )
+  echo "diff ${f} ${COMPDIR}/${dir}/${f}" >> ../diffs
+  diff ${f} ${COMPDIR}/${dir}/${f} >> ../diffs
+end
+cd ..
+
+set dir="test8"
+echo "*** ${dir} *** " >> diffs
+cd ${dir}
+foreach f ( outp outp2 pdata tape6 tape7 tape8 tape9 )
+  echo "diff ${f} ${COMPDIR}/${dir}/${f}" >> ../diffs
+  diff ${f} ${COMPDIR}/${dir}/${f} >> ../diffs
+end
+cd ..
+

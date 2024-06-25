@@ -1,0 +1,180 @@
+SOURCES 4D Calculation
+<<<<<<<<<<<>>>>>>>>>>>
+
+
+
+                      Summary of Input
+                      ================
+ 
+Title: Sample 1 - PuBe13 Source (Stewart, 1953)                                     
+Homogeneous problem input (idd = 1)
+Magnitudes and spectra computed (id = 2)
+Ascending energy structure for output (erg =  1)
+Number of elemental constituents:  2
+Solid stopping cross-sections used (isg = 0)
+ 
+Elemental Constituents:
+ 
+  Z-value  Atom Fraction
+  -------  -------------
+      4     0.9285710000
+     94     0.0714290000
+ 
+Number of neutron spectrum energy groups:  48
+Maximum neutron energy is  1.200E+01 MeV.
+Minimum neutron energy is  0.000E+00 MeV.
+ 
+Energy Group Structure:
+ 
+  Group  Upper-Bound  Lower-Bound
+  -----  -----------  -----------
+     1     1.200E+01    1.175E+01
+     2     1.175E+01    1.150E+01
+     3     1.150E+01    1.125E+01
+     4     1.125E+01    1.100E+01
+     5     1.100E+01    1.075E+01
+     6     1.075E+01    1.050E+01
+     7     1.050E+01    1.025E+01
+     8     1.025E+01    1.000E+01
+     9     1.000E+01    9.750E+00
+    10     9.750E+00    9.500E+00
+    11     9.500E+00    9.250E+00
+    12     9.250E+00    9.000E+00
+    13     9.000E+00    8.750E+00
+    14     8.750E+00    8.500E+00
+    15     8.500E+00    8.250E+00
+    16     8.250E+00    8.000E+00
+    17     8.000E+00    7.750E+00
+    18     7.750E+00    7.500E+00
+    19     7.500E+00    7.250E+00
+    20     7.250E+00    7.000E+00
+    21     7.000E+00    6.750E+00
+    22     6.750E+00    6.500E+00
+    23     6.500E+00    6.250E+00
+    24     6.250E+00    6.000E+00
+    25     6.000E+00    5.750E+00
+    26     5.750E+00    5.500E+00
+    27     5.500E+00    5.250E+00
+    28     5.250E+00    5.000E+00
+    29     5.000E+00    4.750E+00
+    30     4.750E+00    4.500E+00
+    31     4.500E+00    4.250E+00
+    32     4.250E+00    4.000E+00
+    33     4.000E+00    3.750E+00
+    34     3.750E+00    3.500E+00
+    35     3.500E+00    3.250E+00
+    36     3.250E+00    3.000E+00
+    37     3.000E+00    2.750E+00
+    38     2.750E+00    2.500E+00
+    39     2.500E+00    2.250E+00
+    40     2.250E+00    2.000E+00
+    41     2.000E+00    1.750E+00
+    42     1.750E+00    1.500E+00
+    43     1.500E+00    1.250E+00
+    44     1.250E+00    1.000E+00
+    45     1.000E+00    7.500E-01
+    46     7.500E-01    5.000E-01
+    47     5.000E-01    2.500E-01
+    47     2.500E-01    0.000E+00
+ 
+Number of source nuclides to be evaluated:  6
+ 
+Source Nuclides:
+ 
+    ZAID     Atom Density (atoms/cc)
+    ----     -----------------------
+   942370     1.314E+04
+   942380     7.050E+17
+   942390     5.820E+21
+   942400     3.740E+20
+   942410     1.650E+19
+   942420     1.220E+18
+ 
+Number of target nuclides to be used:  1
+ 2000 Alpha energy groups used.
+ 
+Target Nuclides:
+ 
+    ZAID     Atom Fraction
+    ----     -------------
+    40090     9.286E-01
+ 
+ 
+
+
+                      Summary of Output
+                      =================
+ 
+Total (alpha,n) neutron source from all sources and targets:  2.684E+05 n/sec-cm^3.
+
+Total spontaneous fission neutron source from all sources and targets:  1.574E+02 n/sec-cm^3.
+
+Total delayed neutron source from all sources and targets:  0.000E+00 n/sec-cm^3.
+
+Total neutron source from all sources and targets:  2.685E+05 n/sec-cm^3.
+
+Average (alpha,n) neutron energy:  4.836E+00 MeV.
+
+Average spontaneous fission neutron energy:  1.93378E+00 MeV.
+
+Average delayed neutron energy:  0.000E+00 MeV.
+
+Average neutron energy from all sources:  4.834E+00 MeV.
+
+Normalized Neutron Energy Spectrum by Energy Group for All Sources:
+(Note: descending group structure is independent of erg record.)
+
+          Group     Contribution
+          -----     ------------
+             1        1.210E-08
+             2        1.531E-08
+             3        1.935E-08
+             4        3.147E-07
+             5        1.799E-05
+             6        5.325E-04
+             7        1.971E-03
+             8        3.640E-03
+             9        6.063E-03
+            10        9.581E-03
+            11        1.353E-02
+            12        1.581E-02
+            13        1.675E-02
+            14        1.765E-02
+            15        1.896E-02
+            16        2.102E-02
+            17        2.325E-02
+            18        2.484E-02
+            19        2.549E-02
+            20        2.558E-02
+            21        2.560E-02
+            22        2.511E-02
+            23        2.152E-02
+            24        1.555E-02
+            25        1.868E-02
+            26        2.085E-02
+            27        2.400E-02
+            28        3.100E-02
+            29        3.739E-02
+            30        4.016E-02
+            31        4.241E-02
+            32        4.449E-02
+            33        4.718E-02
+            34        5.055E-02
+            35        5.310E-02
+            36        5.583E-02
+            37        4.528E-02
+            38        2.995E-02
+            39        2.331E-02
+            40        2.071E-02
+            41        1.676E-02
+            42        1.176E-02
+            43        1.616E-02
+            44        1.838E-02
+            45        1.854E-02
+            46        1.516E-02
+            47        5.852E-03
+            48        2.900E-04
+
+Portion of Total Neutron Source Rate Accounted for in the Total Energy Spectrum: 100.0%.
+
+Portion of Spontaneous Fission Neutron Source Rate Accounted For in the Spontaneous Fission Energy Spectrum: 100.0%.

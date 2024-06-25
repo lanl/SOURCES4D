@@ -1,0 +1,131 @@
+SOURCES 4D Calculation
+<<<<<<<<<<<>>>>>>>>>>>
+
+
+ 
+Title: Sample 1 - PuBe13 Source (Stewart, 1953)                                     
+Homogeneous problem input (idd = 1)
+ 
+
+number of stopping elems:     2
+number of sources input:      6
+number of targets input:      1
+in this file, i is targets, j is stopping elements, k is sources, l is alpha levels
+
+target nuclide     1       40090
+atom frac.    9.2857100E-01 (target)
+source nuclide     1      942370
+atom density  1.3144000E-20 (source)
+lambda        1.7581700E-07 (source)
+
+   (alpha,n) source rate density for this source and target  4.5222201E-12
+
+   j   Z  at.frac.       sum_l {fal*dp_i/dN_j}
+   1   4  9.2857100E-01  1.3189822E+15
+   2  94  7.1429000E-02  1.0249441E+16
+
+  j1  Z1  at.frac.       j2  Z2  at.frac.       sum_l {fal*d^2p_i/dN_j1 dN_j2}
+   1   4  9.2857100E-01   1   4  9.2857100E-01  8.8911607E+14
+   1   4  9.2857100E-01   2  94  7.1429000E-02  6.9072052E+15
+   2  94  7.1429000E-02   1   4  9.2857100E-01  6.9072052E+15
+   2  94  7.1429000E-02   2  94  7.1429000E-02  5.3698220E+16
+
+target nuclide     1       40090
+atom frac.    9.2857100E-01 (target)
+source nuclide     2      942380
+atom density  7.0500000E-07 (source)
+lambda        2.5031300E-10 (source)
+
+   (alpha,n) source rate density for this source and target  8.7579887E+03
+
+   j   Z  at.frac.       sum_l {fal*dp_i/dN_j}
+   1   4  9.2857100E-01  3.3420847E+19
+   2  94  7.1429000E-02  2.6032775E+20
+
+  j1  Z1  at.frac.       j2  Z2  at.frac.       sum_l {fal*d^2p_i/dN_j1 dN_j2}
+   1   4  9.2857100E-01   1   4  9.2857100E-01  2.2508623E+19
+   1   4  9.2857100E-01   2  94  7.1429000E-02  1.7527885E+20
+   2  94  7.1429000E-02   1   4  9.2857100E-01  1.7527885E+20
+   2  94  7.1429000E-02   2  94  7.1429000E-02  1.3659563E+21
+
+target nuclide     1       40090
+atom frac.    9.2857100E-01 (target)
+source nuclide     3      942390
+atom density  5.8200000E-03 (source)
+lambda        9.1102900E-13 (source)
+
+   (alpha,n) source rate density for this source and target  2.0971308E+05
+
+   j   Z  at.frac.       sum_l {fal*dp_i/dN_j}
+   1   4  9.2857100E-01  2.6716185E+19
+   2  94  7.1429000E-02  2.0641892E+20
+
+  j1  Z1  at.frac.       j2  Z2  at.frac.       sum_l {fal*d^2p_i/dN_j1 dN_j2}
+   1   4  9.2857100E-01   1   4  9.2857100E-01  1.8047449E+19
+   1   4  9.2857100E-01   2  94  7.1429000E-02  1.3940903E+20
+   2  94  7.1429000E-02   1   4  9.2857100E-01  1.3940903E+20
+   2  94  7.1429000E-02   2  94  7.1429000E-02  1.0775418E+21
+
+target nuclide     1       40090
+atom frac.    9.2857100E-01 (target)
+source nuclide     4      942400
+atom density  3.7400000E-04 (source)
+lambda        3.3534000E-12 (source)
+
+   (alpha,n) source rate density for this source and target  4.9892074E+04
+
+   j   Z  at.frac.       sum_l {fal*dp_i/dN_j}
+   1   4  9.2857100E-01  2.6868968E+19
+   2  94  7.1429000E-02  2.0763492E+20
+
+  j1  Z1  at.frac.       j2  Z2  at.frac.       sum_l {fal*d^2p_i/dN_j1 dN_j2}
+   1   4  9.2857100E-01   1   4  9.2857100E-01  1.8149506E+19
+   1   4  9.2857100E-01   2  94  7.1429000E-02  1.4022124E+20
+   2  94  7.1429000E-02   1   4  9.2857100E-01  1.4022124E+20
+   2  94  7.1429000E-02   2  94  7.1429000E-02  1.0840071E+21
+
+target nuclide     1       40090
+atom frac.    9.2857100E-01 (target)
+source nuclide     5      942410
+atom density  1.6500000E-05 (source)
+lambda        1.4942200E-09 (source)
+
+   (alpha,n) source rate density for this source and target  1.9882511E+01
+
+   j   Z  at.frac.       sum_l {fal*dp_i/dN_j}
+   1   4  9.2857100E-01  5.4597531E+14
+   2  94  7.1429000E-02  4.1924769E+15
+
+  j1  Z1  at.frac.       j2  Z2  at.frac.       sum_l {fal*d^2p_i/dN_j1 dN_j2}
+   1   4  9.2857100E-01   1   4  9.2857100E-01  3.6966155E+14
+   1   4  9.2857100E-01   2  94  7.1429000E-02  2.8380393E+15
+   2  94  7.1429000E-02   1   4  9.2857100E-01  2.8380393E+15
+   2  94  7.1429000E-02   2  94  7.1429000E-02  2.1800051E+16
+
+target nuclide     1       40090
+atom frac.    9.2857100E-01 (target)
+source nuclide     6      942420
+atom density  1.2200000E-06 (source)
+lambda        5.8370300E-14 (source)
+
+   (alpha,n) source rate density for this source and target  2.3390905E+00
+
+   j   Z  at.frac.       sum_l {fal*dp_i/dN_j}
+   1   4  9.2857100E-01  2.2238568E+19
+   2  94  7.1429000E-02  1.7075526E+20
+
+  j1  Z1  at.frac.       j2  Z2  at.frac.       sum_l {fal*d^2p_i/dN_j1 dN_j2}
+   1   4  9.2857100E-01   1   4  9.2857100E-01  1.5057376E+19
+   1   4  9.2857100E-01   2  94  7.1429000E-02  1.1559346E+20
+   2  94  7.1429000E-02   1   4  9.2857100E-01  1.1559346E+20
+   2  94  7.1429000E-02   2  94  7.1429000E-02  8.8785399E+20
+
+(alpha,n) targets and sources
+number of targets, sources     1     6
+target nuclide     1       40090
+source nuclide     1      942370
+source nuclide     2      942380
+source nuclide     3      942390
+source nuclide     4      942400
+source nuclide     5      942410
+source nuclide     6      942420

@@ -1,0 +1,36 @@
+SOURCES 4D Calculation
+<<<<<<<<<<<>>>>>>>>>>>
+
+
+ 
+Title: Sample 3 - PoBe Source                                                       
+Homogeneous problem input (idd = 1)
+ 
+
+number of stopping elems:     2
+number of sources input:      1
+number of targets input:      1
+in this file, i is targets, j is stopping elements, k is sources, l is alpha levels
+
+target nuclide     1       40090
+atom frac.    9.9999886E-01 (target)
+source nuclide     1      842100
+atom density  6.3800000E-08 (source)
+lambda        5.7976300E-08 (source)
+
+   (alpha,n) source rate density for this source and target  2.6024174E+05
+
+   j   Z  at.frac.       sum_l {fal*dp_i/dN_j}
+   1   4  9.9999886E-01  7.0356246E+19
+   2  84  1.1400000E-06  5.1371914E+20
+
+  j1  Z1  at.frac.       j2  Z2  at.frac.       sum_l {fal*d^2p_i/dN_j1 dN_j2}
+   1   4  9.9999886E-01   1   4  9.9999886E-01  7.0355741E+19
+   1   4  9.9999886E-01   2  84  1.1400000E-06  5.1371544E+20
+   2  84  1.1400000E-06   1   4  9.9999886E-01  5.1371544E+20
+   2  84  1.1400000E-06   2  84  1.1400000E-06  3.7582458E+21
+
+(alpha,n) targets and sources
+number of targets, sources     1     1
+target nuclide     1       40090
+source nuclide     1      842100

@@ -1,0 +1,57 @@
+SOURCES 4D Calculation
+<<<<<<<<<<<>>>>>>>>>>>
+
+
+
+                      Summary of Input
+                      ================
+ 
+Title: Sample 2 - Uranyl-Flouride Solution                                          
+Homogeneous problem input (idd = 1)
+Magnitudes only computed (id = 1)
+Number of elemental constituents:  3
+Solid stopping cross-sections used (isg = 0)
+ 
+Elemental Constituents:
+ 
+  Z-value  Atom Fraction
+  -------  -------------
+      8     0.4000000000
+      9     0.4000000000
+     92     0.2000000000
+ 
+ 
+Number of source nuclides to be evaluated:  3
+ 
+Source Nuclides:
+ 
+    ZAID     Atom Density (atoms/cc)
+    ----     -----------------------
+   922340     1.320E+17
+   922350     2.110E+20
+   922380     4.010E+21
+ 
+Number of target nuclides to be used:  3
+ 2000 Alpha energy groups used.
+ 
+Target Nuclides:
+ 
+    ZAID     Atom Fraction
+    ----     -------------
+    80170     1.520E-04
+    80180     8.000E-04
+    90190     4.000E-01
+ 
+ 
+
+
+                      Summary of Output
+                      =================
+ 
+Total (alpha,n) neutron source from all sources and targets:  2.514E-02 n/sec-cm^3.
+
+Total spontaneous fission neutron source from all sources and targets:  2.160E-02 n/sec-cm^3.
+
+Total delayed neutron source from all sources and targets:  0.000E+00 n/sec-cm^3.
+
+Total neutron source from all sources and targets:  4.674E-02 n/sec-cm^3.

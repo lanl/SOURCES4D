@@ -1,0 +1,26 @@
+SOURCES 4D Calculation
+<<<<<<<<<<<>>>>>>>>>>>
+
+
+
+                          Neutron Source Magnitudes
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Title: Sample 6 - Alpha Beam (5.0 MeV) on Al2O3                                     
+
+
+1                              Table I
+                               =======
+
+            (alpha,n) Neutron Production by Target Per Source Alpha
+
+
+                 target    alpha   alpha   alphas/sec     p(e)     neuts/sec
+       target  atom frac.  source  energy  /microamp   neut/alpha  /microamp
++      ______  __________  ______  ______  __________  __________  ____________
+        o 17   2.2800E-04   beam    5.000  3.1209E+12  2.0027E-09  6.2502E+03
+        o 18   1.2000E-03   beam    5.000  3.1209E+12  2.4343E-08  7.5971E+04
+       al 27   4.0000E-01   beam    5.000  3.1209E+12  1.3747E-07  4.2903E+05
++                                                                  ____________
+                                         Total (all targets):      5.112553E+05
+

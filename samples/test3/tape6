@@ -1,0 +1,25 @@
+SOURCES 4D Calculation
+<<<<<<<<<<<>>>>>>>>>>>
+
+
+
+                          Neutron Source Magnitudes
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Title: Sample 3 - PoBe Source                                                       
+
+
+1                              Table I
+                               =======
+
+            (alpha,n) Neutron Production by Target Per Source Alpha
+
+
+                 target    alpha   alpha   alphas/sec     p(e)     neuts/sec
+       target  atom frac.  source  energy  /cm**3      neut/alpha  /cm**3   
++      ______  __________  ______  ______  __________  __________  ____________
+       be  9   1.0000E+00  po210    4.517  3.9578E+04  3.9792E-05  1.574906E+00
+                                    5.305  3.6989E+09  7.0357E-05  2.602402E+05
++                                                                  ____________
+                                                       Total:      2.602417E+05
+

@@ -1,0 +1,12 @@
+#!/bin/tcsh
+# this script uses this installation of sources4d to generate the test templates.
+
+foreach f ( 1 2 3 4 5 6 7 8 )
+  cd test${f}
+  echo "*** test${f} ***"
+  rm -rf tape6 tape7 tape8 tape9 pdata sdata outp outp2
+  ../../bin/sources4d
+  echo ""
+  cd ..
+end
+

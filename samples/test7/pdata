@@ -1,0 +1,39 @@
+SOURCES 4D Calculation
+<<<<<<<<<<<>>>>>>>>>>>
+
+
+ 
+Title: Sample 7 - Alpha Beam (5.5 MeV) on Mg                                        
+Homogeneous problem input (idd = 3)
+ 
+
+number of stopping elems:     1
+number of targets input:      2
+in this file, i is targets, j is stopping elements
+
+target nuclide     1      120250
+atom frac.    1.0000000E-01 (target)
+
+   (alpha,n) source rate density for this target  1.6474977E+06
+
+   j   Z  at.frac.       dp_i/dN_j*microamp
+   1  12  1.0000000E+00  1.6474977E+30
+
+  j1  Z1  at.frac.       j2  Z2  at.frac.       d^2p_i/dN_j1 dN_j2*microamp
+   1  12  1.0000000E+00   1  12  1.0000000E+00  5.2789186E+17
+
+target nuclide     2      120260
+atom frac.    1.5010000E-01 (target)
+
+   (alpha,n) source rate density for this target  3.1966274E+06
+
+   j   Z  at.frac.       dp_i/dN_j*microamp
+   1  12  1.0000000E+00  3.1966274E+30
+
+  j1  Z1  at.frac.       j2  Z2  at.frac.       d^2p_i/dN_j1 dN_j2*microamp
+   1  12  1.0000000E+00   1  12  1.0000000E+00  1.0242646E+18
+
+(alpha,n) targets and sources
+number of targets, sources     2     0
+target nuclide     1      120250
+target nuclide     2      120260

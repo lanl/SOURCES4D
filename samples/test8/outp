@@ -1,0 +1,144 @@
+SOURCES 4D Calculation
+<<<<<<<<<<<>>>>>>>>>>>
+
+
+
+                      Summary of Input
+                      ================
+ 
+Title: M&C 2019 test problem material                                               
+Homogeneous problem input (idd = 1)
+Magnitudes and spectra computed (id = 2)
+Descending energy structure for output (erg = -1)
+Number of elemental constituents:  5
+Solid stopping cross-sections used (isg = 0)
+ 
+Elemental Constituents:
+ 
+  Z-value  Atom Fraction
+  -------  -------------
+      4     0.2904943000
+     11     0.1138777900
+     94     0.5036354100
+     28     0.0451879000
+     26     0.0468046060
+ 
+Number of neutron spectrum energy groups:  30
+Maximum neutron energy is  1.700E+01 MeV.
+Minimum neutron energy is  1.390E-10 MeV.
+ 
+Energy Group Structure:
+ 
+  Group  Upper-Bound  Lower-Bound
+  -----  -----------  -----------
+     1     1.700E+01    1.500E+01
+     2     1.500E+01    1.350E+01
+     3     1.350E+01    1.200E+01
+     4     1.200E+01    1.000E+01
+     5     1.000E+01    7.790E+00
+     6     7.790E+00    6.070E+00
+     7     6.070E+00    3.680E+00
+     8     3.680E+00    2.865E+00
+     9     2.865E+00    2.232E+00
+    10     2.232E+00    1.738E+00
+    11     1.738E+00    1.353E+00
+    12     1.353E+00    8.230E-01
+    13     8.230E-01    5.000E-01
+    14     5.000E-01    3.030E-01
+    15     3.030E-01    1.840E-01
+    16     1.840E-01    6.760E-02
+    17     6.760E-02    2.480E-02
+    18     2.480E-02    9.120E-03
+    19     9.120E-03    3.350E-03
+    20     3.350E-03    1.235E-03
+    21     1.235E-03    4.540E-04
+    22     4.540E-04    1.670E-04
+    23     1.670E-04    6.140E-05
+    24     6.140E-05    2.260E-05
+    25     2.260E-05    8.320E-06
+    26     8.320E-06    3.060E-06
+    27     3.060E-06    1.130E-06
+    28     1.130E-06    4.140E-07
+    29     4.140E-07    1.520E-07
+    30     1.520E-07    1.390E-10
+ 
+Number of source nuclides to be evaluated:  2
+ 
+Source Nuclides:
+ 
+    ZAID     Atom Density (atoms/cc)
+    ----     -----------------------
+   942390     4.444E+22
+   942420     9.753E+20
+ 
+Number of target nuclides to be used:  2
+  400 Alpha energy groups used.
+ 
+Target Nuclides:
+ 
+    ZAID     Atom Fraction
+    ----     -------------
+    40090     2.905E-01
+   110230     1.139E-01
+ 
+ 
+
+
+                      Summary of Output
+                      =================
+ 
+Total (alpha,n) neutron source from all sources and targets:  1.578E+05 n/sec-cm^3.
+
+Total spontaneous fission neutron source from all sources and targets:  6.783E+02 n/sec-cm^3.
+
+Total delayed neutron source from all sources and targets:  0.000E+00 n/sec-cm^3.
+
+Total neutron source from all sources and targets:  1.585E+05 n/sec-cm^3.
+
+Average (alpha,n) neutron energy:  4.767E+00 MeV.
+
+Average spontaneous fission neutron energy:  1.96129E+00 MeV.
+
+Average delayed neutron energy:  0.000E+00 MeV.
+
+Average neutron energy from all sources:  4.755E+00 MeV.
+
+Normalized Neutron Energy Spectrum by Energy Group for All Sources:
+(Note: descending group structure is independent of erg record.)
+
+          Group     Contribution
+          -----     ------------
+             1        2.075E-08
+             2        7.705E-08
+             3        3.129E-07
+             4        5.857E-03
+             5        1.355E-01
+             6        1.616E-01
+             7        3.153E-01
+             8        1.699E-01
+             9        7.458E-02
+            10        3.687E-02
+            11        2.104E-02
+            12        4.400E-02
+            13        2.528E-02
+            14        7.838E-03
+            15        1.448E-03
+            16        7.581E-04
+            17        1.229E-04
+            18        2.250E-05
+            19        4.533E-06
+            20        9.392E-07
+            21        2.068E-07
+            22        4.684E-08
+            23        9.849E-09
+            24        2.450E-09
+            25        4.949E-10
+            26        1.140E-10
+            27        2.450E-11
+            28        8.013E-12
+            29        2.693E-12
+            30        4.218E-13
+
+Portion of Total Neutron Source Rate Accounted for in the Total Energy Spectrum: 100.0%.
+
+Portion of Spontaneous Fission Neutron Source Rate Accounted For in the Spontaneous Fission Energy Spectrum: 100.0%.

@@ -1,0 +1,25 @@
+SOURCES 4D Calculation
+<<<<<<<<<<<>>>>>>>>>>>
+
+
+
+                          Neutron Source Magnitudes
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Title: Sample 7 - Alpha Beam (5.5 MeV) on Mg                                        
+
+
+1                              Table I
+                               =======
+
+            (alpha,n) Neutron Production by Target Per Source Alpha
+
+
+                 target    alpha   alpha   alphas/sec     p(e)     neuts/sec
+       target  atom frac.  source  energy  /microamp   neut/alpha  /microamp
++      ______  __________  ______  ______  __________  __________  ____________
+       mg 25   1.0000E-01   beam    5.500  3.1209E+12  5.2789E-07  1.6475E+06
+       mg 26   1.5010E-01   beam    5.500  3.1209E+12  1.0243E-06  3.1966E+06
++                                                                  ____________
+                                         Total (all targets):      4.844125E+06
+

@@ -1,0 +1,199 @@
+SOURCES 4D Calculation
+<<<<<<<<<<<>>>>>>>>>>>
+
+
+
+                      Summary of Input
+                      ================
+ 
+Title: Sample 3 - PoBe Source                                                       
+Homogeneous problem input (idd = 1)
+Magnitudes and spectra computed (id = 2)
+Ascending energy structure for output (erg =  1)
+Number of elemental constituents:  2
+Solid stopping cross-sections used (isg = 0)
+ 
+Elemental Constituents:
+ 
+  Z-value  Atom Fraction
+  -------  -------------
+      4     0.9999988600
+     84     0.0000011400
+ 
+Number of neutron spectrum energy groups:  60
+Maximum neutron energy is  1.200E+01 MeV.
+Minimum neutron energy is  0.000E+00 MeV.
+ 
+Energy Group Structure:
+ 
+  Group  Upper-Bound  Lower-Bound
+  -----  -----------  -----------
+     1     1.200E+01    1.180E+01
+     2     1.180E+01    1.160E+01
+     3     1.160E+01    1.140E+01
+     4     1.140E+01    1.120E+01
+     5     1.120E+01    1.100E+01
+     6     1.100E+01    1.080E+01
+     7     1.080E+01    1.060E+01
+     8     1.060E+01    1.040E+01
+     9     1.040E+01    1.020E+01
+    10     1.020E+01    1.000E+01
+    11     1.000E+01    9.800E+00
+    12     9.800E+00    9.600E+00
+    13     9.600E+00    9.400E+00
+    14     9.400E+00    9.200E+00
+    15     9.200E+00    9.000E+00
+    16     9.000E+00    8.800E+00
+    17     8.800E+00    8.600E+00
+    18     8.600E+00    8.400E+00
+    19     8.400E+00    8.200E+00
+    20     8.200E+00    8.000E+00
+    21     8.000E+00    7.800E+00
+    22     7.800E+00    7.600E+00
+    23     7.600E+00    7.400E+00
+    24     7.400E+00    7.200E+00
+    25     7.200E+00    7.000E+00
+    26     7.000E+00    6.800E+00
+    27     6.800E+00    6.600E+00
+    28     6.600E+00    6.400E+00
+    29     6.400E+00    6.200E+00
+    30     6.200E+00    6.000E+00
+    31     6.000E+00    5.800E+00
+    32     5.800E+00    5.600E+00
+    33     5.600E+00    5.400E+00
+    34     5.400E+00    5.200E+00
+    35     5.200E+00    5.000E+00
+    36     5.000E+00    4.800E+00
+    37     4.800E+00    4.600E+00
+    38     4.600E+00    4.400E+00
+    39     4.400E+00    4.200E+00
+    40     4.200E+00    4.000E+00
+    41     4.000E+00    3.800E+00
+    42     3.800E+00    3.600E+00
+    43     3.600E+00    3.400E+00
+    44     3.400E+00    3.200E+00
+    45     3.200E+00    3.000E+00
+    46     3.000E+00    2.800E+00
+    47     2.800E+00    2.600E+00
+    48     2.600E+00    2.400E+00
+    49     2.400E+00    2.200E+00
+    50     2.200E+00    2.000E+00
+    51     2.000E+00    1.800E+00
+    52     1.800E+00    1.600E+00
+    53     1.600E+00    1.400E+00
+    54     1.400E+00    1.200E+00
+    55     1.200E+00    1.000E+00
+    56     1.000E+00    8.000E-01
+    57     8.000E-01    6.000E-01
+    58     6.000E-01    4.000E-01
+    59     4.000E-01    2.000E-01
+    59     2.000E-01    0.000E+00
+ 
+Number of source nuclides to be evaluated:  1
+ 
+Source Nuclides:
+ 
+    ZAID     Atom Density (atoms/cc)
+    ----     -----------------------
+   842100     6.380E+16
+ 
+Number of target nuclides to be used:  1
+ 2000 Alpha energy groups used.
+ 
+Target Nuclides:
+ 
+    ZAID     Atom Fraction
+    ----     -------------
+    40090     1.000E+00
+ 
+ 
+
+
+                      Summary of Output
+                      =================
+ 
+Total (alpha,n) neutron source from all sources and targets:  2.602E+05 n/sec-cm^3.
+
+Total spontaneous fission neutron source from all sources and targets:  0.000E+00 n/sec-cm^3.
+
+Total delayed neutron source from all sources and targets:  0.000E+00 n/sec-cm^3.
+
+Total neutron source from all sources and targets:  2.602E+05 n/sec-cm^3.
+
+Average (alpha,n) neutron energy:  4.901E+00 MeV.
+
+Average spontaneous fission neutron energy:  0.00000E+00 MeV.
+
+Average delayed neutron energy:  0.000E+00 MeV.
+
+Average neutron energy from all sources:  4.901E+00 MeV.
+
+Normalized Neutron Energy Spectrum by Energy Group for All Sources:
+(Note: descending group structure is independent of erg record.)
+
+          Group     Contribution
+          -----     ------------
+             1        0.000E+00
+             2        0.000E+00
+             3        0.000E+00
+             4        0.000E+00
+             5        0.000E+00
+             6        1.365E-10
+             7        2.346E-09
+             8        5.495E-09
+             9        8.797E-09
+            10        1.277E-08
+            11        1.812E-08
+            12        2.825E-08
+            13        3.867E-08
+            14        4.624E-08
+            15        5.042E-08
+            16        5.240E-08
+            17        5.420E-08
+            18        5.671E-08
+            19        6.012E-08
+            20        6.493E-08
+            21        6.992E-08
+            22        7.372E-08
+            23        7.608E-08
+            24        7.669E-08
+            25        7.681E-08
+            26        7.686E-08
+            27        7.611E-08
+            28        6.961E-08
+            29        5.856E-08
+            30        5.410E-08
+            31        6.815E-08
+            32        7.276E-08
+            33        7.493E-08
+            34        8.771E-08
+            35        1.036E-07
+            36        1.185E-07
+            37        1.249E-07
+            38        1.302E-07
+            39        1.349E-07
+            40        1.395E-07
+            41        1.453E-07
+            42        1.531E-07
+            43        1.589E-07
+            44        1.651E-07
+            45        1.603E-07
+            46        1.295E-07
+            47        9.355E-08
+            48        7.129E-08
+            49        6.547E-08
+            50        5.945E-08
+            51        5.181E-08
+            52        3.607E-08
+            53        4.203E-08
+            54        5.167E-08
+            55        5.483E-08
+            56        5.507E-08
+            57        4.767E-08
+            58        3.114E-08
+            59        7.430E-09
+            60        5.902E-10
+
+Portion of Total Neutron Source Rate Accounted for in the Total Energy Spectrum:   0.0%.
+
+Warning: Energy Group Structure May Be Poorly Chosen.

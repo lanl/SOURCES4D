@@ -1,0 +1,12 @@
+#!/bin/tcsh
+# this script puts the links to the data files in the test directories.
+
+foreach f ( 1 2 3 4 5 6 7 8 )
+  cd test${f}
+  ln -sf ../../data/tape2.txt tape2
+  ln -sf ../../data/tape3.txt tape3
+  ln -sf ../../data/tape4.txt tape4
+  ln -sf ../../data/tape5.txt tape5
+  cd ..
+end
+

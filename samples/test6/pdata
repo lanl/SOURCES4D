@@ -1,0 +1,63 @@
+SOURCES 4D Calculation
+<<<<<<<<<<<>>>>>>>>>>>
+
+
+ 
+Title: Sample 6 - Alpha Beam (5.0 MeV) on Al2O3                                     
+Homogeneous problem input (idd = 3)
+ 
+
+number of stopping elems:     2
+number of targets input:      3
+in this file, i is targets, j is stopping elements
+
+target nuclide     1       80170
+atom frac.    2.2800000E-04 (target)
+
+   (alpha,n) source rate density for this target  6.2502381E+03
+
+   j   Z  at.frac.       dp_i/dN_j*microamp
+   1   8  6.0000000E-01  5.3427721E+27
+   2  13  4.0000000E-01  7.6114371E+27
+
+  j1  Z1  at.frac.       j2  Z2  at.frac.       d^2p_i/dN_j1 dN_j2*microamp
+   1   8  6.0000000E-01   1   8  6.0000000E-01  1.4634072E+15
+   1   8  6.0000000E-01   2  13  4.0000000E-01  2.0847221E+15
+   2  13  4.0000000E-01   1   8  6.0000000E-01  2.0847221E+15
+   2  13  4.0000000E-01   2  13  4.0000000E-01  2.9700660E+15
+
+target nuclide     2       80180
+atom frac.    1.2000000E-03 (target)
+
+   (alpha,n) source rate density for this target  7.5971296E+04
+
+   j   Z  at.frac.       dp_i/dN_j*microamp
+   1   8  6.0000000E-01  6.4888869E+28
+   2  13  4.0000000E-01  9.2594935E+28
+
+  j1  Z1  at.frac.       j2  Z2  at.frac.       d^2p_i/dN_j1 dN_j2*microamp
+   1   8  6.0000000E-01   1   8  6.0000000E-01  1.7758900E+16
+   1   8  6.0000000E-01   2  13  4.0000000E-01  2.5340942E+16
+   2  13  4.0000000E-01   1   8  6.0000000E-01  2.5340942E+16
+   2  13  4.0000000E-01   2  13  4.0000000E-01  3.6161851E+16
+
+target nuclide     3      130270
+atom frac.    4.0000000E-01 (target)
+
+   (alpha,n) source rate density for this target  4.2903380E+05
+
+   j   Z  at.frac.       dp_i/dN_j*microamp
+   1   8  6.0000000E-01  3.6577983E+29
+   2  13  4.0000000E-01  5.2391475E+29
+
+  j1  Z1  at.frac.       j2  Z2  at.frac.       d^2p_i/dN_j1 dN_j2*microamp
+   1   8  6.0000000E-01   1   8  6.0000000E-01  9.9923686E+16
+   1   8  6.0000000E-01   2  13  4.0000000E-01  1.4312276E+17
+   2  13  4.0000000E-01   1   8  6.0000000E-01  1.4312276E+17
+   2  13  4.0000000E-01   2  13  4.0000000E-01  2.0499828E+17
+
+(alpha,n) targets and sources
+number of targets, sources     3     0
+target nuclide     1       80170
+target nuclide     2       80180
+target nuclide     3      130270
