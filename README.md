@@ -15,14 +15,14 @@ data--data files
 docs--documentation
 - sources4c.pdf
 Still the main user manual for SOURCES4D.
-W. B. Wilson, R. T. Perry, E. F. Shores, W. S. Charlton, T. A. Parish, G. P. Estes, T. H. Brown, E. D. Arthur, M. Bozoian, T. R. England, D. G. Madland, and J. E. Stewart, “SOURCES 4C: A Code for Calculating (alpha,n), Spontaneous Fission, and Delayed Neutron Sources and Spectra,” _Proceedings of the American Nuclear Society/Radiation Protection and Shielding Division 12th Biennial Topical Meeting_, Santa Fe, New Mexico, April 14–18, 2002; http://permalink.lanl.gov/object/tr?what=info:lanl-repo/lareport/LA-UR-02-1839.
++ W. B. Wilson, R. T. Perry, E. F. Shores, W. S. Charlton, T. A. Parish, G. P. Estes, T. H. Brown, E. D. Arthur, M. Bozoian, T. R. England, D. G. Madland, and J. E. Stewart, “SOURCES 4C: A Code for Calculating (alpha,n), Spontaneous Fission, and Delayed Neutron Sources and Spectra,” _Proceedings of the American Nuclear Society/Radiation Protection and Shielding Division 12th Biennial Topical Meeting_, Santa Fe, New Mexico, April 14–18, 2002; http://permalink.lanl.gov/object/tr?what=info:lanl-repo/lareport/LA-UR-02-1839.
 - SOURCES4D.mem.pdf
-Jeffrey A. Favorite, “(U) Release of SOURCES4D Featuring Sensitivity Capabilities,” XTD-RTA:24–156(U), LA–UR–24–24086, April 29, 2024.
 User manual describing the new features in SOURCES4D.
++ Jeffrey A. Favorite, “(U) Release of SOURCES4D Featuring Sensitivity Capabilities,” XTD-RTA:24–156(U), LA–UR–24–24086, April 29, 2024.
 - rpsd2018_Fav_Wei.pdf
-Jeffrey A. Favorite and Sophie L. Weidenbenner, “Sensitivity of a Response to the Composition of an (alpha,n) Neutron Source,” _20th Topical Meeting of the Radiation Protection and Shielding Division of the American Nuclear Society (RPSD-2018)_, Santa Fe, New Mexico, August 26–31, 2018.
++ Jeffrey A. Favorite and Sophie L. Weidenbenner, “Sensitivity of a Response to the Composition of an (alpha,n) Neutron Source,” _20th Topical Meeting of the Radiation Protection and Shielding Division of the American Nuclear Society (RPSD-2018)_, Santa Fe, New Mexico, August 26–31, 2018.
 - mc2019.proc_v_n_pp2335-2347.pdf
-Jeffrey A. Favorite, “Second Derivative of an (alpha,n) Neutron Source with Respect to Constituent Isotope Densities,” _Proceedings of the International Conference on Mathematics and Computational Methods Applied to Nuclear Science and Engineering (M&C 2019)_, 2335–2347, Portland, Oregon, August 25–29, 2019.
++ Jeffrey A. Favorite, “Second Derivative of an (alpha,n) Neutron Source with Respect to Constituent Isotope Densities,” _Proceedings of the International Conference on Mathematics and Computational Methods Applied to Nuclear Science and Engineering (M&C 2019)_, 2335–2347, Portland, Oregon, August 25–29, 2019.
 
 samples--8 test inputs and outputs and utility scripts
 
